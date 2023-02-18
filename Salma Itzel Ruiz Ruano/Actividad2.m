@@ -105,10 +105,10 @@ imhist(h3);
 title ("Histograma ecualizado");
 
 %Punto 7 
-Egris =  entropy(rgb)
-ER = entropy(D)
-Ecirculo = entropy(C1)
-Egauss= entropy(Gauss)
-Ei1= entropy(h1)
-Ei2= entropy(h2)
-Ei5= entropy(h3)
+Ergb =  entropy(rgb)
+ED = entropy(D)
+EC1 = entropy(C1)
+EGauss = entropy(Gauss)
+Eh1 = entropy(h1)
+Eh2 = entropy(h2)
+Eh3 = entropy(h3)
